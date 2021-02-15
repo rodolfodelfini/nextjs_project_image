@@ -1,0 +1,26 @@
+{
+  "name": "nextjs_project_image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodolfodelfini/nextjs_project_image.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodolfodelfini/nextjs_project_image/issues"
+  },
+  "homepage": "https://github.com/rodolfodelfini/nextjs_project_image#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
