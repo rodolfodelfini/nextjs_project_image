@@ -14,9 +14,8 @@ function Index({ itens }) {
                     <Link href={{ pathname: '/image/[slug]', query: { slug: registro.id }, }} >
                     <div className={styles.BoxImage} key={registro.id}>
                         <img  className={styles.image} src={registro.previewURL}/>
-                        <div className={styles.infoprofile}>
-                            <h2 className={styles.name}>{registro.tags}</h2>
-                            <p className={styles.p}>{registro.type}</p>
+                        <div className={styles.infoImage}>
+                            <p className={styles.name}>{registro.tags}</p>
                         </div>
                     </div>
                     </Link>
