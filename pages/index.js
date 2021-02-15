@@ -3,7 +3,7 @@ import axios from 'axios';
 import { render } from 'react-dom';
 import Link from "next/link";
 import { useRouter } from 'next/router';
-import styles from '../style/styles.module.css';
+import styles from '../style/styles_index.module.css';
 
 function Index({ itens }) {
     console.log(itens)
