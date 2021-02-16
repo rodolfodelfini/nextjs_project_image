@@ -1,35 +1,27 @@
-
-
 .container {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px 0px 0px 0px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .BoxMain{
-  max-width: 900px;
+  max-width: 960px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.title {
-  color:rgb(54, 54, 54);
-}
-
 .BoxImage {
-  margin-top: 1px;
+  margin: 10px 10px 10px 10px;
   width: 300px;
-  height: 170px;
-  background-color: #000;
+  height: 230px;
+  background-color: rgb(255, 255, 255);
   float: left;
   text-align:center;
-  list-style-type: none; 
   -webkit-transition: -webkit-transform 0.3s ease;
   -moz-transition: -moz-transform 0.3s ease;
   transition: transform 0.3s ease;
-  position: relative;
+  border-radius: 5px;
 }
 
 .BoxImage:hover {
@@ -40,25 +32,11 @@
 }
 
 .BoxImage .image{
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   float:left;
-
-}
-
-.BoxImage .infoImage{
-  height: 30px;
-  width: 290px;
-  margin-top: 10px;
-  margin-left: 0px;
-  background-color: rgba(255, 255, 255, 0.39);
-  float:left;
-  position: absolute;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  bottom:0px;
-}
-
-.BoxImage .infoImage p{
-  color: black;
-  margin:5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
