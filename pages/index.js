@@ -9,25 +9,27 @@ function Index({ itens }) {
     console.log(itens)
     return(
     <div className={styles.container}>
-            
-            <div className={styles.BoxMain}>
-            <div><h1>Test Vercel + NextJs + ReactJs</h1></div>
-                {itens.map(registro =>(
-                    <div className={styles.BoxImage} key={registro.id}>
-                        <div 
-                            className={styles.image} 
-                            style={
-                                { 
-                                    backgroundImage: `url(${registro.webformatURL})`
-                                }
-                                }>
-                        </div>
-                        <div className={styles.infoImage}>
-                            <p >{registro.tags}</p>
-                        </div>
-                    </div>
-                ))}
+          
+        <div className={styles.BoxMain}>
+            <div className={styles.title}>
+                <h1>Vercel + NextJs + ReactJs</h1>
             </div>
+            {itens.map(registro =>(
+            <div className={styles.BoxImage} key={registro.id}>
+                <div 
+                    className={styles.image} 
+                    style={
+                        { 
+                            backgroundImage: `url(${registro.webformatURL})`
+                        }
+                        }>
+                </div>
+                <div className={styles.infoImage}>
+                    <p >{registro.tags}</p>
+                </div>
+            </div>
+            ))}
+        </div>
 
         <style jsx global>
         { ` 

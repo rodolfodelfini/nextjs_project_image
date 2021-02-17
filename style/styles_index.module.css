@@ -1,8 +1,6 @@
 .container {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  text-align: center;
+  margin: 0;
 }
 
 .BoxMain{
@@ -11,32 +9,39 @@
   margin-left: auto;
 }
 
+.title{
+  text-align: center;
+}
+
 .BoxImage {
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   width: 300px;
   height: 230px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   float: left;
-  text-align:center;
+  border-radius: 5px;
+
   -webkit-transition: -webkit-transform 0.3s ease;
   -moz-transition: -moz-transform 0.3s ease;
   transition: transform 0.3s ease;
-  border-radius: 5px;
 }
 
 .BoxImage:hover {
-  -webkit-transform: scale(1.02);
-  -moz-transform: scale(1.02);
-  -o-transform: scale(1.02);
-  transform: scale(1.02);
+  -webkit-transform: scale(1.015);
+  -moz-transform: scale(1.015);
+  -o-transform: scale(1.015);
+  transform: scale(1.015);
 }
 
 .BoxImage .image{
-  width: 300px;
-  height: 200px;
-  float:left;
+  width: 100%;
+  height: 85%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.infoImage p{
+  margin: 8px;
 }
