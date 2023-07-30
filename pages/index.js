@@ -10,9 +10,6 @@ function Index({ itens }) {
     return(
     <div className={styles.container}>  
         <div className={styles.BoxMain}>
-            <div className={styles.title}>
-                <h1>Vercel + NextJs + ReactJs</h1>
-            </div>
             {itens.map(registro =>(
             <div className={styles.BoxImage} key={registro.id}>
                 <div 
